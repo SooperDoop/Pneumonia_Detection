@@ -3,3 +3,4 @@ gunicorn
 keras
 tensorflow
 opencv-python-headless
+matplotlib
