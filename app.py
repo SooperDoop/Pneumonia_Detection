@@ -21,7 +21,7 @@ json_file = open(r"model.json", 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
-loaded_model.load_weights(r"/model.h5") 
+loaded_model.load_weights(r"model.h5") 
 print('model loaded!!!')
 
 graph = tf.get_default_graph()
